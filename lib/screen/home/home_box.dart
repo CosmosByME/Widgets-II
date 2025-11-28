@@ -12,8 +12,8 @@ class HomeScreen extends StatelessWidget {
           children: <Widget>[
             Box(icon: Icons.lightbulb, color: Colors.yellow),
             Box(icon: Icons.camera_alt, color: Colors.green),
-            Box(icon: Icons.book, color: Colors.blue),
-            Box(icon: Icons.percent, color: Colors.pink),
+            Box(icon: Icons.book, color: Colors.pink),
+            Box(icon: Icons.percent, color: Colors.blue),
             ],
         ),
       ),

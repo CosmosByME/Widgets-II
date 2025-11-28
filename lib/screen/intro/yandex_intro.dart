@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-//import 'app.dart';
 
 class YandexBackground extends StatefulWidget {
   const YandexBackground({super.key});
@@ -30,13 +29,4 @@ class _YandexBackgroundState extends State<YandexBackground> {
       ),
     );
   }
-}
-
-void main() {
-  runApp(
-    const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: YandexBackground(),
-    ),
-  );
 }
