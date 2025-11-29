@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
-import 'screen/home/home_text.dart';
+import 'package:myapp/screen/timer/timer.dart';
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: HomeScreen());
+    return const MaterialApp(
+      title: 'Flutter Timer',
+      home: TimerScreen(),
+    );
   }
 }
